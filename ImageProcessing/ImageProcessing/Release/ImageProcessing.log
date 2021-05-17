@@ -1,0 +1,26 @@
+﻿  pch.cpp
+  CConstantDlg.cpp
+  CDownSampleDlg.cpp
+  ChildFrm.cpp
+  ClassView.cpp
+  CQuantizationDlg.cpp
+  CStressTransformDlg.cpp
+  CUpSampleDlg.cpp
+  FileView.cpp
+  ImageProcessing.cpp
+  ImageProcessingDoc.cpp
+c:\users\byj55\source\repos\imageprocessing\imageprocessing\imageprocessingdoc.cpp(196): error C2665: 'AfxMessageBox': 2개의 오버로드 중 모든 인수 형식을 변환할 수 있는 오버로드가 없습니다.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(6549): note: 'int AfxMessageBox(UINT,UINT,UINT)'일 수 있습니다.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(6547): note: 또는       'int AfxMessageBox(LPCTSTR,UINT,UINT)'
+  c:\users\byj55\source\repos\imageprocessing\imageprocessing\imageprocessingdoc.cpp(196): note: 인수 목록 '(const char [23])'을(를) 일치시키는 동안
+c:\users\byj55\source\repos\imageprocessing\imageprocessing\imageprocessingdoc.cpp(217): error C2664: 'CFileDialog::CFileDialog(const CFileDialog &)': 인수 2을(를) 'const char [4]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+  c:\users\byj55\source\repos\imageprocessing\imageprocessing\imageprocessingdoc.cpp(217): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\byj55\source\repos\imageprocessing\imageprocessing\imageprocessingdoc.cpp(848): error C2665: 'AfxMessageBox': 2개의 오버로드 중 모든 인수 형식을 변환할 수 있는 오버로드가 없습니다.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(6549): note: 'int AfxMessageBox(UINT,UINT,UINT)'일 수 있습니다.
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(6547): note: 또는       'int AfxMessageBox(LPCTSTR,UINT,UINT)'
+  c:\users\byj55\source\repos\imageprocessing\imageprocessing\imageprocessingdoc.cpp(848): note: 인수 목록 '(const char [23])'을(를) 일치시키는 동안
+  ImageProcessingView.cpp
+  MainFrm.cpp
+  OutputWnd.cpp
+  PropertiesWnd.cpp
+  ViewTree.cpp
